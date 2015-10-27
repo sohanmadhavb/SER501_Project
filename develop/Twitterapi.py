@@ -32,4 +32,4 @@ if __name__ == '__main__':
     auth.set_access_token(access, access_secret)
     stream = Stream(auth, l)
 
-    stream.filter(track=['El Capitan', 'Windows 10'])
+    stream.filter(track=['Python', 'Java','C++', 'Ruby', 'Smalltalk'])
